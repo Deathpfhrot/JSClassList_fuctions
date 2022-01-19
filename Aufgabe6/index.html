@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form action="" onsubmit="return false">
+        <h2>Fonts Generator</h2>
+        <label for="range">Font Size:</label>
+        <input onchange="changeFontsSize()" type="range" name="bar" id="range">
+        <select onchange="changeFontsSize()" id="selection">
+            <option value="'Bodoni Moda', serif;">Bodoni Moda</option>
+            <option value="'Roboto', sans-serif;">Roboto</option>
+            <option value="'Yusei Magic', sans-serif;">YuseiMagic</option>
+            <option value="'Open Sans', sans-serif;">Open Sans</option>
+        </select>
+        <input onchange="changeFontsSize()" type="text" name="text" id="text">
+
+
+    </form>
+
+    <h1 id="testChambor"></h1>
+
+
+
+
+    <script src="https://kit.fontawesome.com/6585d50100.js" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
