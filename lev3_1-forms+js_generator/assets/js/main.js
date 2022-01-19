@@ -16,4 +16,4 @@ function changeBackground(){
 
 document.getElementById('rangeRed').changeBackground('input')
 document.getElementById('rangeGreen').changeBackground('input')
-document.getElementById('rangeBlue').achangeBackground('input')
+document.getElementById('rangeBlue').changeBackground('input')
