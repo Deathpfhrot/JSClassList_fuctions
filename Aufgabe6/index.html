@@ -12,15 +12,21 @@
 <body>
     <form action="" onsubmit="return false">
         <h2>Fonts Generator</h2>
+
+
         <label for="range">Font Size:</label>
-        <input onchange="changeFontsSize()" type="range" name="bar" id="range">
+        <input onchange="changeFontsSize()" type="range" name="range" id="range" min="16" max="100" value="50">
+
+
         <select onchange="changeFontsSize()" id="selection">
             <option value="'Bodoni Moda', serif;">Bodoni Moda</option>
             <option value="'Roboto', sans-serif;">Roboto</option>
             <option value="'Yusei Magic', sans-serif;">YuseiMagic</option>
             <option value="'Open Sans', sans-serif;">Open Sans</option>
         </select>
-        <input onchange="changeFontsSize()" type="text" name="text" id="text">
+
+
+        <input onchange="changeFontsSize()" type="text" name="text" id="myText">
 
 
     </form>
