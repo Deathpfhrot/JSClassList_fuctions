@@ -1,25 +1,25 @@
 /*--------- lev3_1: forms-js_fonts-generator ----------*/
-
+let range = document.getElementById("range")
+let selection = document.getElementById("selection")
+let myText = document.getElementById("myText")
+let testChambor = document.getElementById("testChambor")
 
 function changeFontsSize(){
-    let range = document.getElementById("range").value
-    let selection = document.getElementById("selection").value
-    let myText = document.getElementById("myText").value
-    let testChambor = document.getElementById("testChambor")
+
     
     
-    document.getElementById("testChambor").style.fontFamily = selection
+    document.getElementById("testChambor").style.fontFamily = selection.value
 
-    document.getElementById("testChambor").style.fontSize = (range + "px")
+    document.getElementById("testChambor").style.fontSize = range.value + "px"
 
-    document.getElementById("testChambor").innerHTML = myText
+    document.getElementById("testChambor").innerHTML = myText.value
 
 
-    console.log(selection);
+    console.log(selection.value);
 
-    console.log(range);    
+    console.log(range.value);    
 
-    console.log(myText);
+    console.log(myText.value);
 }
 
 // document.getElementById('range').changeFontsSize('input')
